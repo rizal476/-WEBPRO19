@@ -1,0 +1,336 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+/*HEADER*/
+header{
+	position: relative;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   background: #161415 url(header-background.jpg) no-repeat top center;
+   background-size: cover;
+}
+
+header .banner {
+	display: inline-block;
+	margin: auto;
+	width: 100%;
+	padding-bottom: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+header .banner h1{
+	color: white;
+	font-family: Arial;
+	font-size: 53px;
+	letter-spacing: 2px;
+	margin: 150px auto 18px auto;
+}
+
+header .banner h3{
+	font-size: 24px;
+	font-family: Bahnschrift;
+	color: #A8A8A8;
+	margin: 0 auto;
+	width: 40%;
+	line-height: 1.6;
+}
+
+header .banner .garis{
+	width: 600px;
+	height: 1px;
+	background-color: white;
+	margin: 15px auto 18px auto;
+
+}
+
+header .socmed li{
+	display: inline-block;
+	margin: 0 15px;
+   	padding: 0;
+   	font-size: 30px;
+}
+
+/*NAVIGATOR MENU*/
+#navv {
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   position: fixed;
+   left: 0;
+   top: 0;
+}
+
+.nav{
+	list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: #333333;
+}
+
+.nav li{
+	display: inline;
+}
+
+.nav a{
+	display: inline-block;
+	padding: 10px 10px;
+}
+
+a{
+	text-decoration: none;
+	font-family: monospace, serif;
+	color: white;
+}
+
+.active {
+	color: #d66a06;
+}
+
+/*PROFILE*/
+#profile{
+	height: 800px;
+	width: 100%;
+	background-color: #2B2B2B;
+	padding-top: 15px;
+}
+
+#profile img{
+	border-radius: 50%;
+	margin: 80px 100px auto 250px;
+}
+
+#profile h2{
+	font-size: 30px;
+	color: white;
+	margin-top: -170px;
+	margin-left: 600px;
+	font-family: Arial;
+}
+
+#profile p{
+	font-size: 25px;
+	font-family: Arial;
+	color: white;
+	margin-left: 600px;
+	line-height: 1.6;
+	width: 40%;
+}
+
+/*EDUCATION*/
+#education{
+	height: 800px;
+	width: 100%;
+	padding-top: 15px;
+}
+
+#education img{
+	margin: 80px 100px auto 250px;
+}
+
+#education h2{
+	font-size: 30px;
+	color: black;
+	text-decoration: underline;
+	margin-top: -40px;
+	margin-left: 400px;
+	font-family: Arial;
+}
+
+#education div{
+	width: 70%;
+}
+
+#education div h3{
+	margin-left: 400px;
+	color: #4b4d51;
+}
+
+#education span.h31{
+	font-family: Baskerville Old Face;
+	font-style: italic;;
+	font-size: 25px;
+}
+
+#education p{
+	font-size: 20px;
+	font-family: Baskerville Old Face;
+	margin-left: 400px;
+	color: #7b7c7c;
+}
+
+/*EXPERIENCES*/
+#experiences{
+	height: 800px;
+	width: 100%;
+	padding-top: 15px;
+}
+
+#experiences img{
+	margin: 80px 100px auto 250px;
+}
+
+#experiences h2{
+	font-size: 30px;
+	color: black;
+	text-decoration: underline;
+	margin-top: -40px;
+	margin-left: 400px;
+	font-family: Arial;
+}
+
+#experiences div{
+	width: 70%;
+}
+
+#experiences ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+}
+#experiences li{
+	margin: 20px;
+}
+
+#experiences li.list{
+	background: url('decree.png') no-repeat left top;
+	height: 54px;
+	padding-left: 70px;
+	padding-top: 15px;
+
+}
+
+#experiences div li{
+	margin-left: 400px;
+	color: #4b4d51;
+	font-family: Baskerville Old Face;
+	font-style: italic;
+	font-size: 25px;
+}
+
+/*SKILLS*/
+#skills{
+	height: 800px;
+	width: 100%;
+	padding-top: 15px;
+}
+
+#skills img{
+	margin: 50px 100px auto 250px;
+}
+
+#skills h2{
+	font-size: 30px;
+	color: black;
+	text-decoration: underline;
+	margin-top: -40px;
+	margin-left: 400px;
+	font-family: Arial;
+}
+
+#skills p{
+	font-size: 20px;
+	font-family: Baskerville Old Face;
+	margin-left: 400px;
+	color: #7b7c7c;
+}
+
+#skills .container{
+	font-size: 20px;
+	font-family: Baskerville Old Face;
+	margin-left: 400px;
+	color: #7b7c7c;
+	width: 50%; 
+  	background-color: #ddd; 
+}
+
+* {
+	box-sizing:border-box
+}
+
+.s{
+	text-align: right;
+	padding: 10px;
+	color: white;
+}
+
+.pascal{
+	width: 95%;
+	background-color: #7984EB;
+}
+
+.golang{
+	width: 80%;
+	background-color: #81A713;
+}
+
+.c{
+	width: 75%;
+	background-color: #FF9F00;
+}
+
+.java{
+	width: 90%;
+	background-color: #CC2E43;
+}
+
+.phyton{
+	width: 70%;
+	background-color: #f285c1;
+}
+
+
+/*CONTACTS*/
+#contacts{
+	height: 800px;
+	width: 100%;
+	padding-top: 15px;
+	background-color: #2B2B2B;
+	color: white;
+}
+
+#contacts img{
+	margin: 50px 100px auto 250px;
+}
+
+#contacts h2{
+	color: white;
+	font-size: 30px;
+	text-decoration: underline;
+	margin-top: -40px;
+	margin-left: 400px;
+	font-family: Arial;
+}
+
+#contacts ul{
+	list-style-type: none;
+	margin-left: 100px;
+	margin-top: -30px;
+}
+
+#contacts li.naik{
+	margin-top: -45px;
+	margin-left: 340px;
+	font-size: 25px;
+}
+
+/*FOOTER*/
+footer{
+	height: 200px;
+	width: 100%;
+	padding-top: 15px;
+	background-color: #0F0F0F; 
+}
+
+footer .image{
+	margin: auto;
+	width: 5%;
+	padding: 10px;
+	margin-top: -45px;
+}
